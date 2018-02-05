@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="css/css_stylesheet.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/animate.css" type="text/css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>
+    $(document).ready(function(){
+        $("img").addClass("center-block");
+        $("#prsnt1").click(function(){
+            $("#prsnt1").addClass("animated rubberBand").attr("src", "img/1_option.png");
+            $("#prsnt2").addClass("animated bounceOutRight");
+            $("#prsnt3").addClass("animated bounceOutRight");
+        });
+        $("#prsnt2").click(function(){
+            $("#prsnt2").addClass("animated rubberBand").attr("src", "img/2_option.png");
+            $("#prsnt1").addClass("animated bounceOutLeft");
+            $("#prsnt3").addClass("animated bounceOutRight");
+        });
+        $("#prsnt3").click(function(){
+            $("#prsnt3").addClass("animated rubberBand").attr("src", "img/3_option.png");
+            $("#prsnt1").addClass("animated bounceOutLeft");
+            $("#prsnt2").addClass("animated bounceOutLeft");
+        });
+
+        $("#prsnt4").click(function(){
+            $("#prsnt4").addClass("animated rubberBand").attr("src", "img/4_option.png");
+            $("#prsnt5").addClass("animated bounceOutRight");
+            $("#prsnt6").addClass("animated bounceOutRight");
+        });
+        $("#prsnt5").click(function(){
+            $("#prsnt5").addClass("animated rubberBand").attr("src", "img/5_option.png");
+            $("#prsnt4").addClass("animated bounceOutLeft");
+            $("#prsnt6").addClass("animated bounceOutRight");
+        });
+        $("#prsnt6").click(function(){
+            $("#prsnt6").addClass("animated rubberBand").attr("src", "img/6_option.png");
+            $("#prsnt4").addClass("animated bounceOutLeft");
+            $("#prsnt5").addClass("animated bounceOutLeft");
+        });
+
+        $("#prsnt7").click(function(){
+            $("#prsnt7").addClass("animated rubberBand").attr("src", "img/7_option.png");
+            $("#prsnt8").addClass("animated bounceOutRight");
+            $("#prsnt9").addClass("animated bounceOutRight");
+        });
+        $("#prsnt8").click(function(){
+            $("#prsnt8").addClass("animated rubberBand").attr("src", "img/8_option.png");
+            $("#prsnt7").addClass("animated bounceOutLeft");
+            $("#prsnt9").addClass("animated bounceOutRight");
+        });
+        $("#prsnt9").click(function(){
+            $("#prsnt9").addClass("animated rubberBand").attr("src", "img/9_option.png");
+            $("#prsnt7").addClass("animated bounceOutLeft");
+            $("#prsnt8").addClass("animated bounceOutLeft");
+        });
+    });
+    </script>
+  </head>
+  <body style="margin: 20px 0px 20px 0px;">
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-8 col-xs-offset-2" id="allcontent">
+            <h1 class="text-center text-primary" id="heading">Pick a present</h1>
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3 breaking_point1">
+              </div>
+            </div>
+            <h3 class="text-center text-danger subheading">Rules</h3>
+            <div class="row">
+              <div class="col-sm-4 col-sm-offset-4 breaking_point2">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="numbers">
+                  <img src="img/number1.png" class="img-responsive" alt="number">
+                </div>
+                  <p class="text-center rules">Do not refresh</p>
+              </div>
+              <div class="col-sm-3">
+                <div class="numbers">
+                  <img src="img/number2.png" class="img-responsive" alt="number">
+                </div>
+                  <p class="text-center rules">Choose and click</p>
+              </div>
+              <div class="col-sm-3">
+                <div class="numbers">
+                  <img src="img/number3.png" class="img-responsive" alt="number">
+                </div>
+                  <p class="text-center rules">Make a photo</p>
+              </div>
+              <div class="col-sm-3">
+                <div class="numbers">
+                  <img src="img/number4.png" class="img-responsive" alt="number">
+                  <p class="text-center rules"><a href="#" class="text-primary">Send</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4 col-sm-offset-4 breaking_point2">
+              </div>
+            </div>
+            <h3 class="text-center subheading">Which one is yours?</h3>
+            <div class="row">
+              <div class="col-sm-4 col-sm-offset-4 breaking_point2">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="img/giftbox1.png" class="img-responsive" alt="present" id="prsnt1">
+              </div>
+              <div class="col-sm-4">
+                <img src="img/giftbox2.png" class="img-responsive" alt="present" id="prsnt2">
+              </div>
+              <div class="col-sm-4">
+                <img src="img/giftbox3.png" class="img-responsive" alt="present" id="prsnt3">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4 col-sm-offset-4 breaking_point2">
+              </div>
+            </div>
+            <h3 class="text-center subheading">Can it get better?</h3>
+            <div class="row">
+              <div class="col-sm-4 col-sm-offset-4 breaking_point2">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="img/giftbox4.png" class="img-responsive" alt="present" id="prsnt4">
+              </div>
+              <div class="col-sm-4">
+                <img src="img/giftbox5.png" class="img-responsive" alt="present" id="prsnt5">
+              </div>
+              <div class="col-sm-4">
+                <img src="img/giftbox6.png" class="img-responsive" alt="present" id="prsnt6">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4 col-sm-offset-4 breaking_point2">
+              </div>
+            </div>
+            <h3 class="text-center subheading">Yes, you are awake!</h3>
+            <div class="row">
+              <div class="col-sm-4 col-sm-offset-4 breaking_point2">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4">
+                <img src="img/giftbox7.png" class="img-responsive" alt="present" id="prsnt7">
+              </div>
+              <div class="col-sm-4">
+                <img src="img/giftbox8.png" class="img-responsive" alt="present" id="prsnt8">
+              </div>
+              <div class="col-sm-4">
+                <img src="img/giftbox9.png" class="img-responsive" alt="present" id="prsnt9">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <hr>
+            <p class="text-center">Designed and coded with love by <a href="https://github.com/gorniczy">gorniczy</a></p>
+            <div class="text-center">Icons made by <a href="https://www.flaticon.com/authors/roundicons" title="Roundicons">Roundicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+            <div class="text-center">Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+          </div>
+        </div>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+/* {
+    outline: 1px solid red;
+}*/
+
+#allcontent {
+  background-color:#F5F5F5;
+  border-radius: 1%;
+  padding-bottom: 20px;
+}
+
+img {
+  padding: 50px 50px 50px 50px;
+}
+
+#heading {
+  font-family: "Abril Fatface";
+  font-size: 46px;
+  padding: 40px 0px 20px 0px;
+}
+
+.subheading {
+  font-family: "Abril Fatface";
+  padding-bottom: 20px;
+}
+
+.rules {
+  font-family: "Abril Fatface";
+  font-weight: lighter;
+  padding-bottom: 20px;
+}
+
+.breaking_point1 {
+  padding: 0px 0px 0px 0px;
+  border-bottom: 3px double #9f9f9f;
+}
+
+.breaking_point2 {
+  padding: 0px 0px 0px 0px;
+  border-bottom: 1px solid #9f9f9f;
+}
