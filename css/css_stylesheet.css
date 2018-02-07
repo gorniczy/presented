@@ -2,6 +2,10 @@
     outline: 1px solid red;
 }*/
 
+.container-fluid {
+  overflow: hidden;
+}
+
 #allcontent {
   background-color:#F5F5F5;
   border-radius: 1%;
